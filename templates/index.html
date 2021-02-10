@@ -1,0 +1,25 @@
+{%extends "base.html"%} {%block title%}
+<title>
+    Homepage
+</title>
+{% endblock %} {%block content%}
+
+<div class="container">
+    <img src="../static/babyBlocks.jpg" alt="baby-blocks" class="logo" />
+
+    <!-- form validation message -->
+    {% if message %}
+    <p class="message">{{ message | safe }}</p>
+    {% endif %}
+
+    <div class="row">
+        <div class="col-12 mx-auto">
+            <div class="card">
+                <div class="card-body">
+                    Welcome to the infant tracker!
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
