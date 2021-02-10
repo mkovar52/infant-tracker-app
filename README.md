@@ -1,6 +1,6 @@
-# DunderMifflin Feedback App
+# Infant Tracker App
 
-###### Small Flask application that allows users to rate their purchase experience with the notorious DunderMifflin Scranton branch. 
+###### Flask application that allows users to keep daily log of their infants feeding times, dirty diapers and more.
 
 ## Features List
 
